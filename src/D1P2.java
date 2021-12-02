@@ -6,7 +6,7 @@ public class D1P2 {
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(new File("./inputs/d1.txt"));
-        int larger = 0; // don't count first line
+        int larger = 0;
         int[] num = new int[3];
 
         int next = Integer.parseInt(scan.nextLine().trim());
